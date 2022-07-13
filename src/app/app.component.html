@@ -1,12 +1,25 @@
+
+<p-card [header]="nombre | titlecase"
+        subheader="Esto es un subheader">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sapiente, quas neque doloremque possimus iste velit nulla natus amet! Neque iusto sed distinctio beatae. Repellendus esse architecto obcaecati iste laborum!
+</p-card>
+
 <div class="text-layout">
     <h1>{{nombre | titlecase }}</h1>
     <h1>{{valor | number }}</h1>
     <h1>{{obj | json }}</h1>
 </div>
-    <button
-            class="p-button-primary"
-            pButton 
-            label="Cambiar nombre"
-            type="button"
-            (click)="mostrarNombre()"></button>
+
+<button
+                class="p-button-help"
+                pButton 
+                label="Cambiar nombre"
+                icon="pi pi-bell"
+                iconPos="right"
+                type="button"
+                (click)="mostrarNombre()"></button><br>
+
+
+                
+
 

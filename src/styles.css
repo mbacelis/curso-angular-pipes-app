@@ -1,6 +1,6 @@
 html, body{
     margin: 10px;
-    background-color: var(--surface-a);
+    background-color: var(--surface-b);
     font-family:var(--font-family);
 }
 

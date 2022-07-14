@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 
 import { AppComponent } from './app.component';
-import { PrimeNGModule } from './prime-ng/prime-ng.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +11,7 @@ import { PrimeNGModule } from './prime-ng/prime-ng.module';
   ],
   imports: [
     BrowserModule,
-    PrimeNGModule
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

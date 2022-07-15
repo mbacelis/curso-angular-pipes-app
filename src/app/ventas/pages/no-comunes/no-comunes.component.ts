@@ -47,4 +47,11 @@ export class NoComunesComponent  {
   agregarCliente() {
     this.clientes.push(`cliente${this.clientes.length + 1}`);
   }
+
+  // KeyValue Pipe
+  persona = {
+    nombre: 'Mauricio',
+    edad: 35,
+    direccion: 'Chiapas, México'
+  }
 }
